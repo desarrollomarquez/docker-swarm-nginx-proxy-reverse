@@ -8,5 +8,5 @@ COPY package.json .
 
 RUN npm install
 
-CMD [ "frontendnode", "index.js"]
+CMD [ "node", "index.js"]
 EXPOSE 3000
