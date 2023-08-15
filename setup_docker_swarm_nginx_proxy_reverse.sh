@@ -25,7 +25,7 @@ sudo docker build --tag proxy-reverse/nginx ./nginx/
 sudo docker build --tag backend/app-node ./backend/app-node/
 
 # map app-node service to overlay network
-sudo docker service create --name backend-app-node-swarm --replicas 2 --network swarm-net backend/app-node
+# sudo docker service create --name backend-app-node-swarm --replicas 2 --network swarm-net backend/app-node
 
 #Frontend: 
 
